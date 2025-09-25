@@ -1,0 +1,236 @@
+{
+  "openai_credentials": "/home/asus/Desktop/GEM-CLI2/ADRama_GEM_Gai/openai_credentials.json",
+  "google_credentials": "/home/asus/APPDEV/ADRama_GEM2/google_credentials.json",
+  "outdir": "/home/asus/APPDEV/ADRama_GEM2/Flamebook01",
+  "lines_subdir": "lines",
+  "transform_subdir": "acted_scripts",
+  "transform_preset": "audio_drama",
+  "voice_map": {
+    "Narrator": [
+      "openai",
+      "fable"
+    ],
+    "KAI (eager)": [
+      "openai",
+      "echo"
+    ],
+    "KAI (stunned)": [
+      "openai",
+      "echo"
+    ],
+    "KAI (tense)": [
+      "openai",
+      "echo"
+    ],
+    "LIRA (breaking)": [
+      "openai",
+      "nova"
+    ],
+    "LIRA (calling back)": [
+      "openai",
+      "nova"
+    ],
+    "LIRA (urgent)": [
+      "openai",
+      "nova"
+    ],
+    "MOTHER (muffled)": [
+      "openai",
+      "shimmer"
+    ],
+    "NARRATOR": [
+      "openai",
+      "fable"
+    ],
+    "SFX": [
+      "openai",
+      "shimmer"
+    ],
+    "AMINA (soothing, echo)": [
+      "google",
+      "en-US-Studio-O"
+    ],
+    "ELIAS (calm)": [
+      "google",
+      "en-US-Studio-Q"
+    ],
+    "JACE (mocking)": [
+      "google",
+      "ta-IN-Wavenet-D"
+    ],
+    "MUSIC": [
+      "openai",
+      "shimmer"
+    ],
+    "AMINA": [
+      "openai",
+      "alloy"
+    ],
+    "ELIAS": [
+      "openai",
+      "echo"
+    ],
+    "JACE": [
+      "openai",
+      "onyx"
+    ],
+    "KAI": [
+      "openai",
+      "shimmer"
+    ],
+    "LEADER": [
+      "openai",
+      "fable"
+    ],
+    "LILA": [
+      "google",
+      "en-AU-Neural2-A"
+    ],
+    "MARA": [
+      "google",
+      "es-US-Neural2-B"
+    ],
+    "Elias": [
+      "openai",
+      "alloy"
+    ],
+    "Kai": [
+      "openai",
+      "echo"
+    ],
+    "Leader": [
+      "openai",
+      "echo"
+    ],
+    "Mara": [
+      "openai",
+      "shimmer"
+    ],
+    "Chapter 2": [
+      "google",
+      "en-US-Neural2-I"
+    ],
+    "\"continuity\"": [
+      "google",
+      "en-GB-Neural2-A"
+    ],
+    "\"lines\"": [
+      "google",
+      "en-US-Neural2-J"
+    ],
+    "Lira": [
+      "openai",
+      "nova"
+    ],
+    "Amina": [
+      "openai",
+      "nova"
+    ],
+    "Cara": [
+      "openai",
+      "nova"
+    ],
+    "Lila": [
+      "google",
+      "en-AU-Neural2-A"
+    ],
+    "MOTHER": [
+      "openai",
+      "alloy"
+    ],
+    "Mother": [
+      "openai",
+      "shimmer"
+    ],
+    "Gran": [
+      "openai",
+      "shimmer"
+    ],
+    "BOb": [
+      "openai",
+      "echo"
+    ],
+    "Bob": [
+      "openai",
+      "echo"
+    ],
+    "Alice": [
+      "openai",
+      "nova"
+    ],
+    "Kia": [
+      "openai",
+      "echo"
+    ],
+    "Agent Leader": [
+      "openai",
+      "onyx"
+    ],
+    "Crowd": [
+      "google",
+      "af-ZA-Standard-A"
+    ],
+    "Drone": [
+      "google",
+      "af-ZA-Standard-A"
+    ],
+    "Dylan": [
+      "openai",
+      "echo"
+    ],
+    "Jace": [
+      "google",
+      "af-ZA-Standard-A"
+    ],
+    "Kael": [
+      "google",
+      "af-ZA-Standard-A"
+    ],
+    "Man": [
+      "google",
+      "af-ZA-Standard-A"
+    ],
+    "Uncle": [
+      "openai",
+      "alloy"
+    ]
+  },
+  "google_unavailable_voices": [
+    "Achernar",
+    "Achird",
+    "Algenib",
+    "Algieba",
+    "Alnilam",
+    "Aoede",
+    "Autonoe",
+    "Callirrhoe",
+    "Charon",
+    "Despina",
+    "Enceladus",
+    "Erinome",
+    "Fenrir",
+    "Gacrux",
+    "Iapetus",
+    "Kore",
+    "Laomedeia",
+    "Leda",
+    "Orus",
+    "Puck",
+    "Pulcherrima",
+    "Rasalgethi",
+    "Sadachbia",
+    "Sadaltager",
+    "Schedar",
+    "Sulafat",
+    "Umbriel",
+    "Vindemiatrix",
+    "Zephyr",
+    "Zubenelgenubi",
+    "en-AU-Neural2-B",
+    "en-GB-Neural2-B",
+    "en-GB-Studio-C",
+    "en-IN-Neural2-B",
+    "en-IN-Wavenet-F",
+    "en-US-Neural2-C"
+  ]
+}

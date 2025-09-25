@@ -1,0 +1,6 @@
+```text
+Narrator: The sun sets slowly behind the mountain.
+Alice: What a beautiful view, Bob!
+Bob: Yeah, let's stay here a bit longer.
+Narrator: A gentle breeze rustles the leaves.
+```

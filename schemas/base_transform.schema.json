@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADRama Base Transform Response",
+  "type": "object",
+  "required": ["lines", "continuity"],
+  "properties": {
+    "preset": {
+      "type": ["string", "null"]
+    },
+    "chunk_index": {
+      "type": ["integer", "null"],
+      "minimum": 1
+    },
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["actor", "text"],
+        "properties": {
+          "actor": {"type": "string", "minLength": 1},
+          "text": {"type": "string", "minLength": 1},
+          "scene": {"type": ["integer", "string", "null"]},
+          "actions": {"type": ["string", "array", "null"]},
+          "expression": {"type": ["string", "array", "null"]},
+          "gaze_to": {"type": ["string", "array", "null"]},
+          "sfx": {"type": ["string", "array", "null"]},
+          "notes": {"type": ["string", "array", "null"]},
+          "voice_style": {"type": ["string", "array", "null"]},
+          "voice_emotion": {"type": ["string", "array", "null"]},
+          "beat": {"type": ["string", "array", "null"]},
+          "pace": {"type": ["string", "array", "null"]}
+        },
+        "additionalProperties": true
+      },
+      "minItems": 1
+    },
+    "continuity": {
+      "type": "object",
+      "properties": {
+        "summary": {"type": ["string", "null"]},
+        "next_scene": {"type": ["integer", "null"]},
+        "pending": {"type": ["string", "array", "null"]}
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

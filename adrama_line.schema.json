@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ADRama Line (Superset)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "actor",
+    "text"
+  ],
+  "properties": {
+    "actor": {
+      "type": "string",
+      "minLength": 1
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scene": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "actions": {
+      "type": "string"
+    },
+    "expression": {
+      "type": "string"
+    },
+    "gaze_to": {
+      "type": "string"
+    },
+    "sfx": {
+      "type": [
+        "string",
+        "array"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    },
+    "voice_style": {
+      "type": "string"
+    },
+    "voice_emotion": {
+      "type": "string"
+    },
+    "micro_emotion": {
+      "type": "string"
+    },
+    "beat": {
+      "type": "string"
+    },
+    "pace": {
+      "type": "string",
+      "enum": [
+        "measured",
+        "urgent",
+        "fast",
+        "slow",
+        "steady",
+        "quick"
+      ]
+    },
+    "vocal_technique": {
+      "type": "string"
+    },
+    "accent_hint": {
+      "type": "string"
+    },
+    "rhythm_signature": {
+      "type": "string"
+    },
+    "voice_engine": {
+      "type": "string",
+      "enum": [
+        "openai_tts",
+        "openai_realtime"
+      ]
+    },
+    "voice_id": {
+      "type": "string"
+    },
+    "instructions": {
+      "type": "string"
+    }
+  },
+  "examples": [
+    {
+      "actor": "Lira",
+      "text": "They\u2019ve put up a wall, but they haven\u2019t won. The light isn\u2019t in their hands, it\u2019s in ours.",
+      "voice_engine": "openai_tts",
+      "voice_id": "coral",
+      "voice_style": "calm authority",
+      "voice_emotion": "hopeful",
+      "micro_emotion": "steadfast",
+      "pace": "measured",
+      "vocal_technique": "soft projection, crisp consonants",
+      "rhythm_signature": "4-beat, rising",
+      "instructions": "calm authority; emotion: hopeful; micro: steadfast; pace: measured; technique: soft projection, crisp consonants; rhythm: 4-beat, rising."
+    }
+  ]
+}

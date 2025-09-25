@@ -1,0 +1,15 @@
+{
+  "preset": "audio_drama",
+  "chunk_index": 1,
+  "total_chunks": 2,
+  "next_scene": 1,
+  "previous_summary": "No prior context.",
+  "recent_lines": [],
+  "chunk_text": "﻿\nChapter 2: The Heart’s Beacon",
+  "line_budget": 18,
+  "preset_directives": [
+    "Use strong SFX cues and dialogue-forward pacing.",
+    "Include optional fields: music_bed, sfx_layer, silence_beats, micro_emotion, vocal_technique, accent_hint, rhythm_signature, voice_engine_hint, primary_voice, fallback_voice.",
+    "If a requested field is unsupported by the target voice engine, leave it null."
+  ]
+}

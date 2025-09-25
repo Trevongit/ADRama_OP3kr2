@@ -1,0 +1,32 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Logs and diagnostics
+*.log
+adrama_errors.log
+
+# Virtual envs
+.env
+.venv/
+venv/
+
+# Application outputs
+out/
+lines/
+acted_scripts/
+demos/**/*.mp3
+SAMPLE_scripts/**/*.mp3
+*.mp3
+*.wav
+*.zip
+*.tar.gz
+
+# Credentials and API keys
+openai_credentials.json
+google_credentials.json
+projectf-400305-f086a9fb6705b.json
+
+# IDE/OS metadata
+.DS_Store
+Thumbs.db

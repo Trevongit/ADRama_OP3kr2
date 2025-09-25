@@ -1,0 +1,14 @@
+chmod +x install_adramaz.sh
+./install_adramaz.sh
+
+chmod +x start_adramaz.sh
+./start_adramaz.sh
+
+chmod +x start_adramaz.sh
+./start_adramaz.sh
+
+chmod +x starter.sh
+./starter.sh
+
+chmod +x start.sh
+./start.sh

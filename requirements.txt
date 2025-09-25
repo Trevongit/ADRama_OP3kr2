@@ -1,0 +1,7 @@
+pydub
+openai
+google-cloud-texttospeech
+fastapi
+uvicorn[standard]
+wheel
+jsonschema
